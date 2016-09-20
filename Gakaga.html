@@ -1,0 +1,27 @@
+
+<html>
+<head><title>Gakaga</title></head>
+<body>
+<script src="gakaga.js"></script>
+<div class="product-detail" style="padding-top: 10px;">
+        <div class="col-xs-12 col-sm-12 col-md-6 panel panel-default panel-body">
+            <canvas style="margin: 0 auto;" id="game" width="424" height="240" style="background-color:#00F;"></canvas>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 panel panel-default panel-body">
+            <h3>The Battle to Save Earth!</h3>
+            A large group of huge space things are attacking Earth!<br />
+            Fly your spacecraft using the arrow keys and space bar to shoot!<br />
+            Sacrifice yourself so that the people of Earth can be get into a really big spaceship and leave you forever!<br />
+            ORRRR... be *that guy* by just do nothing and allowing Earth to perish!<br />
+            The choice is yours!<br />
+            <br />
+            Gather 5,000 or more points to save Earth<br />
+            Or die a treacherous death!
+        </div>
+</div>
+<script>
+        var t = new Game;
+        t.initScreen(document.getElementById('game')).fire();
+</script>
+</body>
+</html>
